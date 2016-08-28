@@ -9,10 +9,12 @@ export default class Main extends Component {
         super(...arguments);
 
         this.state = {
-            domains: []
+            domains: [],
+            translations: {}
         };
 
         this.getInfo();
+        this.getTranslations();
 
     }
 
@@ -25,6 +27,19 @@ export default class Main extends Component {
 
         $.getJSON(url+uniq, function(allDomains){
             this.setState({domains:allDomains.concat()});
+        }.bind(this));
+
+    }
+
+
+
+    getTranslations(){
+
+        var uniq = this.getUniqDate();
+        var url = "//raw.githubusercontent.com/ondrek/aliename/master/admin/texts.json?";
+
+        $.getJSON(url+uniq, function(allTranslations){
+            this.setState({translations:allTranslations.concat()});
         }.bind(this));
 
     }
@@ -44,9 +59,13 @@ export default class Main extends Component {
             return (<Domain key={i} name={domain.name} src={domain.image} price={domain.price} title={domain.title} /> );
         });
 
+        console.log(this.state);
+
         return (
 
             <main id="main"><div className="wrapper">
+
+                ..{this.state.translations.TITLE}..
 
             <h2 className="title">
             PREMIUM, HIGH QUALITY <span className="blue">.COM</span> DOMAINS FROM <span className="blue">OUT OF SPACE</span>
