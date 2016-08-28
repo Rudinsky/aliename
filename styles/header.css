@@ -1,0 +1,101 @@
+
+    html {
+
+        font-family: "Signika", sans-serif;
+
+    }
+
+
+    [id="header"] {
+
+        padding: 20px;
+
+    }
+
+
+    [id="header"] > div {
+
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+
+    [id="header"] h1 {
+
+        display: inline-block;
+        margin: 0;
+
+    }
+
+
+    [id="header"] a {
+
+        float: right;
+
+    }
+
+
+
+    [id="nav"] {
+
+        float: right;
+
+    }
+
+
+    [id="nav"] a {
+
+        margin: 0 6px;
+        text-decoration: none;
+        position: relative;
+        color: inherit;
+        text-transform: uppercase;
+
+    }
+
+    
+    [id="nav"] a:before {
+
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0;
+        transition: width 0s ease, background .5s ease;
+
+    }
+
+
+    [id="nav"] a:after {
+
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0;
+        background: blue;
+        transition: width .5s ease;
+
+    }
+
+
+    [id="nav"] a:hover:before {
+
+        width: 100%;
+        background: blue;
+        transition: width .5s ease;
+
+    }
+
+
+    [id="nav"] a:hover:after {
+
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease;
+
+    }

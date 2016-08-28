@@ -1,0 +1,40 @@
+
+    *::-moz-selection {
+
+        background: #FF5D5D;
+        color: #FFF;
+
+    }
+
+    *::selection {
+
+        background: #FF5D5D;
+        color: #FFF;
+
+    }
+
+    * {
+
+        box-sizing: border-box;
+
+    }
+
+    body {
+
+        text-rendering: optimizeLegibility;
+        font-family: "Signika", "EversonMono", "EversonMono", "Segoe UI Symbol", "Arial", "sans-serif";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #0a122f;
+
+    }
+
+
+
+    [class="blue"] {
+
+        color: #179bff;
+
+    }
+

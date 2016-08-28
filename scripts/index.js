@@ -1,11 +1,14 @@
 import React from "react";
 import {render} from "react-dom";
-import Bubble from "./bubble";
+import Footer from "./footer";
+import Main from "./main";
+import Header from "./header";
 
 render(
-    <div>
-        <Bubble hallo="World" />
-    </div>,
+    <main>
+        <Header />
+        <Main />
+        <Footer />
+    </main>,
     document.getElementById("root")
 );
-
