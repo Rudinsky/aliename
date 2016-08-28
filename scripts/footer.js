@@ -40,7 +40,7 @@ export default class Footer extends Component {
             <br/>
             <textarea rows="6" placeholder="Your message"></textarea>
             <br/>
-            <button>SEND MESSAGE</button>
+            <button className="hvr-bounce-to-right">SEND MESSAGE</button>
 
           </aside>
 

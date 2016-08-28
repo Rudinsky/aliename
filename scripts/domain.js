@@ -6,7 +6,7 @@ export default class Domain extends Component {
 
         return (
 
-            <li>
+            <li className="hvr-grow-shadow">
                 <img src={this.props.src} />
                 <strong>{this.props.name}</strong>
                 <span>{this.props.price}</span>

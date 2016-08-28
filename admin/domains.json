@@ -1,0 +1,74 @@
+[
+  {
+    "image": "./res/dentaking.png",
+    "price": "4500€",
+    "name": "xxxx",
+    "title": "Dental services"
+  },
+  {
+    "image": "./res/quarini.png",
+    "price": "4500€",
+    "name": "Quarini.com",
+    "title": "Beautiful domain for your startup"
+  },
+  {
+    "image": "./res/placeholder.png",
+    "price": "4500€",
+    "name": "Palmavia.com",
+    "title": "Cool name for your new property"
+  },
+  {
+    "image": "./res/fitlords.png",
+    "price": "4500€",
+    "name": "Fitlords.com",
+    "title": "For your new gym"
+  },
+  {
+    "image": "./res/brainsdigital.png",
+    "price": "4500€",
+    "name": "Brainsdigital.com",
+    "title": "Digital agency like no other"
+  },
+  {
+    "image": "./res/mockupino.png",
+    "price": "4500€",
+    "name": "Mockupino.com",
+    "title": "Free graphic resources portal"
+  },
+  {
+    "image": "./res/placeholder.png",
+    "price": "4500€",
+    "name": "Copyspeaker.com",
+    "title": "In case you rather speak than write"
+  },
+  {
+    "image": "./res/placeholder.png",
+    "price": "4500€",
+    "name": "Ideabreakers.com",
+    "title": "Wanna have original creative agency?"
+  },
+  {
+    "image": "./res/placeholder.png",
+    "price": "4500€",
+    "name": "Sewyn.com",
+    "title": "Perfect name for your service company"
+  },
+  {
+    "image": "./res/madellin.png",
+    "price": "4500€",
+    "name": "Madellin.com",
+    "title": "Apartments Stomorska Chroatia"
+  },
+  {
+    "image": "./res/promenadanitra.png",
+    "price": "4500€",
+    "name": "Promenadanitra.sk",
+    "title": "New living park Nitra, Slovakia"
+  },
+  {
+    "image": "./res/ostruziny.png",
+    "price": "4500€",
+    "name": "Ostruziny.sk",
+    "title": "Real Estate project in High Tatras"
+  }
+]

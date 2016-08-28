@@ -21,20 +21,30 @@
         color: #585858;
         border-radius: 5px;
 
-        -webkit-box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
-        box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
 
     }
 
 
     [id="domains"] li:hover {
 
-        opacity: 0.8;
         cursor: pointer;
 
     }
 
+
+
+    .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+        box-shadow: 0 10px 5px -10px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+
+    .hvr-bounce-to-right:before {
+        background: #0e4576;
+    }
 
 
     [id="domains"] img {

@@ -8,9 +8,18 @@
 
     [id="header"] {
 
-        padding: 24px 0 16px;
+        padding: 16px 0 12px;
 
     }
+
+
+    [id="header"] [id="logo"] {
+
+        float: left;
+        margin-top: -4px;
+
+    }
+
 
 
     [id="header"] h1 {
@@ -21,16 +30,12 @@
     }
 
 
-    [id="header"] a {
-
-        float: right;
-
-    }
 
 
 
     [id="nav"] {
 
+        padding-top: 9px;
         float: right;
 
     }
@@ -38,6 +43,7 @@
 
     [id="nav"] a {
 
+        float: right;
         margin: 0 13px 0 50px;
         text-decoration: none;
         position: relative;

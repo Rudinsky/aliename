@@ -8,7 +8,9 @@ export default class Header extends Component {
 
         <header id="header"><div className="wrapper">
 
-            <h1><span className="blue">ALIEN</span>NAME</h1>
+            <a href="/">
+                <img id="logo" src="res/logo.png" />
+            </a>
 
             <nav id="nav">
                 <a href="https://google.com">Contact</a>
