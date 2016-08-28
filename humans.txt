@@ -1,15 +1,6 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
 
-# TEAM
+    # TEAM
+    samuel ondrek, @ondrek
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+    # TECHNOLOGIES
+    react, es6, html5, css3, webpack
