@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb8962b-c1a3-47a5-8aeb-c7949a287243" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/domains.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/domain_a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/domain_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/domain_c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/domain_d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/domain_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/domain_f.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/domains.json" afterPath="$PROJECT_DIR$/admin/domains.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/domain.js" afterPath="$PROJECT_DIR$/scripts/domain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/footer.js" afterPath="$PROJECT_DIR$/scripts/footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/header.js" afterPath="$PROJECT_DIR$/scripts/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/_general.css" afterPath="$PROJECT_DIR$/styles/_general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/domains.css" afterPath="$PROJECT_DIR$/styles/domains.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/header.css" afterPath="$PROJECT_DIR$/styles/header.css" />
     </list>
     <ignored path="react-es6-webpack-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="697">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -50,8 +39,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="578">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -59,21 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="domains.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/domains.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +61,18 @@
       <file leaf-file-name="domain.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/domain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domains.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/domains.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -145,6 +134,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scripts/main.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/scripts/footer.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -168,12 +158,12 @@
         <option value="$PROJECT_DIR$/styles/footer.css" />
         <option value="$PROJECT_DIR$/scripts/header.js" />
         <option value="$PROJECT_DIR$/styles/header.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts/domain.js" />
         <option value="$PROJECT_DIR$/styles/_general.css" />
         <option value="$PROJECT_DIR$/scripts/footer.js" />
         <option value="$PROJECT_DIR$/styles/domains.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
+        <option value="$PROJECT_DIR$/scripts/domain.js" />
         <option value="$PROJECT_DIR$/admin/domains.json" />
       </list>
     </option>
@@ -343,12 +333,12 @@
       <workItem from="1471953117049" duration="382000" />
       <workItem from="1471953567493" duration="3735000" />
       <workItem from="1471958918699" duration="5581000" />
-      <workItem from="1472371728606" duration="12851000" />
+      <workItem from="1472371728606" duration="16007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22549000" />
+    <option name="totallyTimeSpent" value="25705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -446,6 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -487,6 +478,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,6 +555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -667,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/_general.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -691,18 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/header.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/domain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="697">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -715,20 +692,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_react_react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="578">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/domain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/domains.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
