@@ -1,0 +1,79 @@
+
+
+    [id="domains"] {
+
+        overflow: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 26px;
+
+    }
+
+
+    [id="domains"] li {
+
+        width: 31.3%;
+        float: left;
+        background: white;
+        margin: 17px 1%;
+        padding: 0 0 10px;
+        color: #585858;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+    [id="domains"] li:hover {
+
+        opacity: 0.8;
+        cursor: pointer;
+
+    }
+
+
+
+    [id="domains"] img {
+
+        border-style: none;
+        max-width: 94%;
+        border-radius: 3px;
+        margin: 4% 3% 10px;
+
+    }
+
+
+    [id="domains"] strong {
+
+        margin-left: 3%;
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+
+
+    [id="domains"] span {
+
+        float: right;
+        margin-right: 3%;
+        font-weight: 800;
+        color: #179bff;
+
+    }
+
+
+    [id="domains"] aside {
+
+        margin-left: 3%;
+        font-weight: 200;
+        font-size: 13px;
+        margin-top: -4px;
+
+    }
+
+

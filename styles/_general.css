@@ -7,7 +7,7 @@
     }
 
 
-    html:after {
+    htkml:after {
 
         content: "";
         width: 100%;
@@ -27,22 +27,23 @@
 
     [class="wrapper"] {
 
-        max-width: 1000px;
+        max-width: 1020px;
         margin: 0 auto;
+        overflow: hidden;
 
     }
 
 
     *::-moz-selection {
 
-        background: #FF5D5D;
+        background: #179bff;
         color: #FFF;
 
     }
 
     *::selection {
 
-        background: #FF5D5D;
+        background: #179bff;
         color: #FFF;
 
     }

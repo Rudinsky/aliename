@@ -12,13 +12,14 @@ export default class Footer extends Component {
 
             <h4>About</h4>
 
-            Matej Rudinsky<br/>
+            <strong>Matej Rudinsky</strong><br/>
             Blatnica 40<br/>
             038 15 Blatnica<br/>
-            Slovak Republic<br/><br/>
+            <strong>Slovak Republic</strong><br/><br/>
 
-            VAT ID: SK 1079180157<br/>
-            email: hello@aliename.com<br/>
+            <strong>VAT ID:</strong> SK 1079180157<br/>
+            <strong>email:</strong> <a href="mailto:hello@aliename.com?subject=Ahoj">hello@aliename.com</a>
+            <br/>
 
           </main>
 
@@ -26,8 +27,8 @@ export default class Footer extends Component {
 
             <h4>Legal</h4>
 
-            Privacy Policy<br/>
-            Refund Policy<br/>
+            <a href="#">Privacy Policy</a><br/>
+            <a href="#">Refund Policy</a><br/>
 
           </aside>
 
@@ -35,11 +36,11 @@ export default class Footer extends Component {
 
             <h4>Support</h4>
 
-            <input type="text" mozactionhint="next" /><br/><br/>
-
-            <textarea rows="4" cols="50">
-            Your Message..
-            </textarea>
+            <input type="text" placeholder="Your e-mail address" />
+            <br/>
+            <textarea rows="6" placeholder="Your message"></textarea>
+            <br/>
+            <button>SEND MESSAGE</button>
 
           </aside>
 

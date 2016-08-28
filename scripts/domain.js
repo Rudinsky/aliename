@@ -9,7 +9,7 @@ export default class Domain extends Component {
             <li>
                 <img src={this.props.src} />
                 <strong>{this.props.name}</strong>
-                <span>{this.props.price}€</span>
+                <span>{this.props.price}</span>
                 <aside>Dental services</aside>
             </li>
 

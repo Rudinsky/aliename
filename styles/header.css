@@ -8,7 +8,7 @@
 
     [id="header"] {
 
-        padding: 20px;
+        padding: 24px 0 16px;
 
     }
 
@@ -38,59 +38,19 @@
 
     [id="nav"] a {
 
-        margin: 0 40px;
+        margin: 0 13px 0 50px;
         text-decoration: none;
         position: relative;
         color: #585858;
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 800;
 
     }
 
-    
-    [id="nav"] a:before {
 
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 2px;
-        width: 0;
-        transition: width 0s ease, background .5s ease;
-
-    }
-
-
-    [id="nav"] a:after {
-
-        content: "";
-        display: block;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        height: 2px;
-        width: 0;
-        background: #179bff;
-        transition: width .5s ease;
-
-    }
-
-
-    [id="nav"] a:hover:before {
-
-        width: 100%;
-        background: #179bff;
-        transition: width .5s ease;
-
-    }
-
-
-    [id="nav"] a:hover:after {
-
-        width: 100%;
-        background: transparent;
-        transition: all 0s ease;
-
-    }
+    /* the underline effect */
+    [id="nav"] a:before { content: ""; display: block; position: absolute; left: 0; bottom: 0; height: 2px; width: 0; transition: width 0s ease, background .5s ease; }
+    [id="nav"] a:after { content: ""; display: block; position: absolute; right: 0; bottom: 0; height: 2px; width: 0; background: #179bff; transition: width .5s ease; }
+    [id="nav"] a:hover:before { width: 100%; background: #179bff; transition: width .5s ease;  }
+    [id="nav"] a:hover:after { width: 100%;  background: transparent; transition: all 0s ease; }
