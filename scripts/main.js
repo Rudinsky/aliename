@@ -39,7 +39,7 @@ export default class Main extends Component {
         var url = "//raw.githubusercontent.com/ondrek/aliename/master/admin/texts.json?";
 
         $.getJSON(url+uniq, function(allTranslations){
-            this.setState({translations:allTranslations.concat()});
+            this.setState({translations:allTranslations});
         }.bind(this));
 
     }
@@ -59,20 +59,16 @@ export default class Main extends Component {
             return (<Domain key={i} name={domain.name} src={domain.image} price={domain.price} title={domain.title} /> );
         });
 
-        console.log(this.state);
-
         return (
 
             <main id="main"><div className="wrapper">
 
-                ..{this.state.translations.TITLE}..
-
             <h2 className="title">
-            PREMIUM, HIGH QUALITY <span className="blue">.COM</span> DOMAINS FROM <span className="blue">OUT OF SPACE</span>
+                {this.state.translations.TITLE}
             </h2>
 
             <h3 className="title">
-            <strong>WITH UNIQUE BRANDING</strong> INCLUDED <strong><span className="blue">FOR FREE</span></strong>
+                {this.state.translations.SUBTITLE}
             </h3>
 
             <ul id="domains">
