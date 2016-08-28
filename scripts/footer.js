@@ -6,45 +6,45 @@ export default class Footer extends Component {
 
     return (
 
-        <footer id="footer">
+        <footer id="footer"><div className="wrapper">
 
-          <main>
+          <main id="about">
 
-            <strong>About</strong>
+            <h4>About</h4>
 
-            Matej Rudinsky
-            Stara Klenova 8
-            Bratislava
-            Slovak Republic
+            Matej Rudinsky<br/>
+            Blatnica 40<br/>
+            038 15 Blatnica<br/>
+            Slovak Republic<br/><br/>
 
-            VAT ID: SK 1079180157
-            email: hello@aliename.com
+            VAT ID: SK 1079180157<br/>
+            email: hello@aliename.com<br/>
 
           </main>
 
-          <aside>
+          <aside id="legal">
 
-            <strong>Legal</strong>
+            <h4>Legal</h4>
 
-            Privacy Policy
-            Refund Policy
-
-          </aside>
-
-          <aside>
-
-            <strong>Legal</strong>
-
-            <input type="text" mozactionhint="next" />
-
-                <textarea rows="4" cols="50">
-                At w3schools.com you will learn how to make a website.
-                </textarea>
+            Privacy Policy<br/>
+            Refund Policy<br/>
 
           </aside>
 
+          <aside id="support">
 
-        </footer>
+            <h4>Support</h4>
+
+            <input type="text" mozactionhint="next" /><br/><br/>
+
+            <textarea rows="4" cols="50">
+            Your Message..
+            </textarea>
+
+          </aside>
+
+
+        </div></footer>
 
     );
 

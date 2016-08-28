@@ -1,5 +1,19 @@
 
-    [id="footer"] {
+    [id="footer"] [id="about"],
+    [id="footer"] [id="legal"],
+    [id="footer"] [id="support"] {
+
+        float: left;
+        width: 30%;
+
+
+    }
+
+
+    [id="footer"] h4 {
+
+        font-weight: 600;
+        font-size: 18px;
 
 
     }

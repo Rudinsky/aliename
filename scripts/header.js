@@ -6,9 +6,9 @@ export default class Header extends Component {
 
     return (
 
-        <header id="header"><div>
+        <header id="header"><div className="wrapper">
 
-            <h1>ALIENNAME</h1>
+            <h1><span className="blue">ALIEN</span>NAME</h1>
 
             <nav id="nav">
                 <a href="https://google.com">Contact</a>
