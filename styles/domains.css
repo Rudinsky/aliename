@@ -21,9 +21,9 @@
         color: #585858;
         border-radius: 5px;
 
-        -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
 
     }
 
@@ -35,15 +35,16 @@
     }
 
 
+    /* settings of the css hover effect zoom */
+    .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active { box-shadow: 0 10px 5px -10px rgba(0, 0, 0, 0.5); -webkit-transform: scale(1.03); transform: scale(1.03); }
+    .hvr-bounce-to-right:before {  background: #0e4576; }
 
-    .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-        box-shadow: 0 10px 5px -10px rgba(0, 0, 0, 0.5);
-        -webkit-transform: scale(1.03);
-        transform: scale(1.03);
-    }
 
-    .hvr-bounce-to-right:before {
-        background: #0e4576;
+    [id="domains"] a {
+
+        text-decoration: none;
+        color: inherit;
+
     }
 
 
