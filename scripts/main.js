@@ -20,9 +20,20 @@ export default class Main extends Component {
 
     getInfo(){
 
-        $.getJSON("//raw.githubusercontent.com/ondrek/aliename/master/admin/domains.json", function(allDomains){
+        var uniq = this.getUniqDate();
+        var url = "//raw.githubusercontent.com/ondrek/aliename/master/admin/domains.json?";
+
+        $.getJSON(url+uniq, function(allDomains){
             this.setState({domains:allDomains.concat()});
         }.bind(this));
+
+    }
+
+
+
+    getUniqDate(){
+
+        return ( +new Date() );
 
     }
 
@@ -32,7 +43,7 @@ export default class Main extends Component {
         const items = this.state.domains.map((domain, i) => {
             return (<Domain key={i} name={domain.name} src={domain.image} price={domain.price} title={domain.title} /> );
         });
-        
+
         return (
 
             <main id="main"><div className="wrapper">
