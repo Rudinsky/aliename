@@ -1,6 +1,7 @@
 
 
-    [id="references"] {
+    [id="references"],
+    [id="domains"] {
 
         overflow: hidden;
         list-style: none;
@@ -11,7 +12,8 @@
     }
 
 
-    [id="references"] li {
+    [id="references"] li,
+    [id="domains"] li {
 
         width: 31.3%;
         float: left;
@@ -28,7 +30,8 @@
     }
 
 
-    [id="references"] li:hover {
+    [id="references"] li:hover,
+    [id="domains"] li:hover {
 
         cursor: pointer;
 
@@ -40,7 +43,8 @@
     .hvr-bounce-to-right:before {  background: #0e4576; }
 
 
-    [id="references"] a {
+    [id="references"] a,
+    [id="domains"] a {
 
         text-decoration: none;
         color: inherit;
@@ -48,7 +52,8 @@
     }
 
 
-    [id="references"] img {
+    [id="references"] img,
+    [id="domains"] img {
 
         border-style: none;
         max-width: 94%;
@@ -58,7 +63,8 @@
     }
 
 
-    [id="references"] strong {
+    [id="references"] strong,
+    [id="domains"] strong {
 
         margin-left: 3%;
         font-weight: 600;
@@ -67,8 +73,8 @@
     }
 
 
-
-    [id="references"] span {
+    [id="references"] span,
+    [id="domains"] span {
 
         float: right;
         margin-right: 3%;
@@ -78,7 +84,8 @@
     }
 
 
-    [id="references"] aside {
+    [id="references"] aside,
+    [id="domains"] aside {
 
         margin-left: 3%;
         font-weight: 200;

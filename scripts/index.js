@@ -8,8 +8,8 @@ import References from "./references";
 
 render(
     <main>
-        <References />
         <Header />
+        <References />
         <Main />
         <Footer />
     </main>,
@@ -21,33 +21,46 @@ render(
 
     "use strict";
 
-
     $("#references").hide();
+    $("#contact").hide();
 
     $(window).on("hashchange", function(){
 
         var isReferences = location.hash.indexOf("references")>0;
+        var isContact = location.hash.indexOf("contact")>0;
+
+
+        $(".maintitle").slideDown();
 
         if (isReferences){
 
-            $("#domains").slideToggle();
-            $("#references").slideToggle();
+            $("#domains").slideUp();
+            $("#references").slideDown();
+            $("#contact").slideUp();
 
             console.info("in references");
+
+        } else if (isContact){
+
+            $("#domains").slideUp();
+            $("#references").slideUp();
+            $("#contact").slideDown();
+
+            $(".maintitle").slideUp();
+
+            console.info("in contact");
 
         } else {
 
             $("#domains").slideDown();
             $("#references").slideUp();
+            $("#contact").slideUp();
 
             console.info("in else");
 
         }
 
-
-
     });
-
 
 
 })();

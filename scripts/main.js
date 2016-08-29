@@ -82,10 +82,16 @@ export default class Main extends Component {
 
             <main id="main"><div className="wrapper">
 
-                <h2 className="title" dangerouslySetInnerHTML={{__html:this.state.translations.TITLE}}></h2>
-                <h3 className="title" dangerouslySetInnerHTML={{__html:this.state.translations.SUBTITLE}}></h3>
+                <h2 className="title maintitle" dangerouslySetInnerHTML={{__html:this.state.translations.TITLE}}></h2>
+                <h3 className="title maintitle" dangerouslySetInnerHTML={{__html:this.state.translations.SUBTITLE}}></h3>
                 <ul id="references">{references}</ul>
                 <ul id="domains">{domains}</ul>
+
+                <aside id="contact">
+                    <br/><br/><br/><br/><br/><br/><br/>
+                    <h2 className="title email"><a href="mailto:hello@rudinsky.studio?subject=Ahoj">HELLO@<i>RUDINSKY</i>.STUDIO</a></h2>
+                    <br/><br/><br/><br/><br/><br/><br/>
+                </aside>
 
             </div></main>
 

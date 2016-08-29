@@ -10,7 +10,7 @@
 
 
 
-    [id="main"] h2[class="title"] {
+    [id="main"] h2[class~="title"] {
 
         text-align: center;
         color: #585858;
@@ -21,7 +21,7 @@
     }
 
 
-    [id="main"] h3[class="title"] {
+    [id="main"] h3[class~="title"] {
 
         text-align: center;
         color: #8a8a8a;
@@ -30,6 +30,21 @@
         font-size: 15px;
 
     }
+
+
+    [id="main"] h2[class~="email"] a {
+
+        color: inherit;
+        text-decoration: none;
+
+    }
+    [id="main"] h2[class~="email"] a:hover {
+
+        opacity: 0.8;
+        text-decoration: underline;
+
+    }
+
 
 
     [id="main"] strong {

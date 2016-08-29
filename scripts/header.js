@@ -13,7 +13,7 @@ export default class Header extends Component {
             </a>
 
             <nav id="nav">
-                <a href="/#?references">Contact</a>
+                <a href="/#?contact">Contact</a>
                 <a href="/#?references">References</a>
             </nav>
 
