@@ -1,0 +1,17 @@
+[
+  {
+    "image": "./res/madellin.png",
+    "name": "Madellin.com",
+    "title": "Apartments Stomorska Chroatia"
+  },
+  {
+    "image": "./res/promenadanitra.png",
+    "name": "Promenadanitra.sk",
+    "title": "New living park Nitra, Slovakia"
+  },
+  {
+    "image": "./res/ostruziny.png",
+    "name": "Ostruziny.sk",
+    "title": "Real Estate project in High Tatras"
+  }
+]

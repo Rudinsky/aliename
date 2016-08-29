@@ -15,6 +15,7 @@ export default class Main extends Component {
 
         this.getInfo();
         this.getTranslations();
+        this.getReferences();
 
     }
 
@@ -40,6 +41,18 @@ export default class Main extends Component {
 
         $.getJSON(url+uniq, function(allTranslations){
             this.setState({translations:allTranslations});
+        }.bind(this));
+
+    }
+
+
+    getReferences(){
+
+        var uniq = this.getUniqDate();
+        var url = "//raw.githubusercontent.com/ondrek/aliename/master/admin/references.json?";
+
+        $.getJSON(url+uniq, function(allReferences){
+            console.log(allReferences);
         }.bind(this));
 
     }

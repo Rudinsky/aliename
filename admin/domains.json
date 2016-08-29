@@ -52,23 +52,5 @@
     "price": "4500€",
     "name": "Sewyn.com",
     "title": "Perfect name for your service company"
-  },
-  {
-    "image": "./res/madellin.png",
-    "price": "4500€",
-    "name": "Madellin.com",
-    "title": "Apartments Stomorska Chroatia"
-  },
-  {
-    "image": "./res/promenadanitra.png",
-    "price": "4500€",
-    "name": "Promenadanitra.sk",
-    "title": "New living park Nitra, Slovakia"
-  },
-  {
-    "image": "./res/ostruziny.png",
-    "price": "5500€",
-    "name": "Ostruziny.sk",
-    "title": "Real Estate project in High Tatras"
   }
 ]
