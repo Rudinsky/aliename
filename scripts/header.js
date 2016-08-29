@@ -8,13 +8,13 @@ export default class Header extends Component {
 
         <header id="header"><div className="wrapper">
 
-            <a href="/">
+            <a href="/#">
                 <img id="logo" src="res/logo.png" />
             </a>
 
             <nav id="nav">
-                <a href="https://google.com">Contact</a>
-                <a href="https://google.com">References</a>
+                <a href="/#?references">Contact</a>
+                <a href="/#?references">References</a>
             </nav>
 
         </div></header>

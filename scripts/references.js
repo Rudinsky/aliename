@@ -11,11 +11,10 @@ export default class References extends Component {
 
         return (
 
-            <li className="hvr-grow-shadow">s
+            <li className="hvr-grow-shadow">
                 <a href={withDetails}>
                     <img src={this.props.src} />
                     <strong>{this.props.name}</strong>
-                    <span>{this.props.price}</span>
                     <aside>{this.props.title}</aside>
                 </a>
             </li>

@@ -1,0 +1,90 @@
+
+
+    [id="references"] {
+
+        overflow: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 26px;
+
+    }
+
+
+    [id="references"] li {
+
+        width: 31.3%;
+        float: left;
+        background: white;
+        margin: 17px 1%;
+        padding: 0 0 10px;
+        color: #585858;
+        border-radius: 5px;
+
+        -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+
+    }
+
+
+    [id="references"] li:hover {
+
+        cursor: pointer;
+
+    }
+
+
+    /* settings of the css hover effect zoom */
+    .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active { box-shadow: 0 10px 5px -10px rgba(0, 0, 0, 0.5); -webkit-transform: scale(1.03); transform: scale(1.03); }
+    .hvr-bounce-to-right:before {  background: #0e4576; }
+
+
+    [id="references"] a {
+
+        text-decoration: none;
+        color: inherit;
+
+    }
+
+
+    [id="references"] img {
+
+        border-style: none;
+        max-width: 94%;
+        border-radius: 3px;
+        margin: 4% 3% 10px;
+
+    }
+
+
+    [id="references"] strong {
+
+        margin-left: 3%;
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+
+
+    [id="references"] span {
+
+        float: right;
+        margin-right: 3%;
+        font-weight: 800;
+        color: #179bff;
+
+    }
+
+
+    [id="references"] aside {
+
+        margin-left: 3%;
+        font-weight: 200;
+        font-size: 13px;
+        margin-top: -4px;
+
+    }
+
+

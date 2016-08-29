@@ -10,7 +10,8 @@ export default class Main extends Component {
 
         this.state = {
             domains: [],
-            translations: {}
+            translations: {},
+            references: []
         };
 
         this.getInfo();
@@ -52,7 +53,7 @@ export default class Main extends Component {
         var url = "//raw.githubusercontent.com/ondrek/aliename/master/admin/references.json?";
 
         $.getJSON(url+uniq, function(allReferences){
-            console.log(allReferences);
+            this.setState({references:allReferences});
         }.bind(this));
 
     }
@@ -66,10 +67,15 @@ export default class Main extends Component {
     }
 
 
+
     render(){
 
-        const items = this.state.domains.map((domain, i) => {
+        const domains = this.state.domains.map((domain, i) => {
             return (<Domain key={i} name={domain.name} src={domain.image} price={domain.price} title={domain.title} /> );
+        });
+
+        const references = this.state.references.map((reference, i) => {
+            return (<Domain key={i} name={reference.name} src={reference.image} title={reference.title} /> );
         });
 
         return (
@@ -78,7 +84,8 @@ export default class Main extends Component {
 
                 <h2 className="title" dangerouslySetInnerHTML={{__html:this.state.translations.TITLE}}></h2>
                 <h3 className="title" dangerouslySetInnerHTML={{__html:this.state.translations.SUBTITLE}}></h3>
-                <ul id="domains">{items}</ul>
+                <ul id="references">{references}</ul>
+                <ul id="domains">{domains}</ul>
 
             </div></main>
 
